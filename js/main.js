@@ -37,7 +37,14 @@ navigation.innerHTML = routes;
 
 
 
-const addBtn = document.querySelector("btn-add-planet");
-htmlElement.addEventListener("click",)
+// const addBtn = document.querySelector(".btn-add-planet");
 
-addPlanet();
+// addBtn.addEventListener("click", addPlanet()){
+//     Olist.innerHTML += `<li> ${planet} </li> `;
+// }; 
+
+const makeDark = document.querySelector(".btn btn-make-dark"); 
+makeDark.addEventListener("click", makeDark);
+
+
+
