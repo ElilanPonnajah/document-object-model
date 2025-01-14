@@ -43,8 +43,8 @@ navigation.innerHTML = routes;
 //     Olist.innerHTML += `<li> ${planet} </li> `;
 // }; 
 
-const makeDark = document.querySelector(".btn btn-make-dark"); 
-makeDark.addEventListener("click", makeDark);
+// const makeDark = document.querySelector(".btn btn-make-dark"); 
+// makeDark.addEventListener("click", makeDark);
 
 
 

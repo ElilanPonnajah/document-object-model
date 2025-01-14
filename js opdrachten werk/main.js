@@ -16,7 +16,8 @@ const results = result + " " +  result2 +  " " + result3;
 users.push(results)
 
 while (users < 3) {
-    console.log(users); 
+    console.log(users);
+    users++ 
 }
  
     
