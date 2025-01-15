@@ -51,4 +51,10 @@ makeDark.addEventListener("click", function(){
 })
 
 
+const makeLight = document.querySelector(".btn-make-light");
+
+makeLight.addEventListener("click", function(){
+    body.classList.remove("dark");
+})
+
 
