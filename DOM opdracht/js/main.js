@@ -37,14 +37,18 @@ navigation.innerHTML = routes;
 
 
 
-// const addBtn = document.querySelector(".btn-add-planet");
+const addBtn = document.querySelector(".btn-add-planet");
 
-// addBtn.addEventListener("click", addPlanet()){
-//     Olist.innerHTML += `<li> ${planet} </li> `;
-// }; 
+addBtn.addEventListener("click", function(){
+    Olist.innerHTML += `<li> ${prompt("planeetnaam")} </li> `;
+})
 
-// const makeDark = document.querySelector(".btn btn-make-dark"); 
-// makeDark.addEventListener("click", makeDark);
+const makeDark = document.querySelector(".btn-make-dark");
+
+makeDark.addEventListener("click", function(){
+    const body = document.querySelector("body");
+    body.classList.toggle("dark")
+})
 
 
 
